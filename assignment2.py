@@ -9,7 +9,6 @@ def mod_exp(base, exp, mod):
         exp = exp // 2
         base = (base * base) % mod
     return result
-
 class RSA:
     @staticmethod
     def generate_keys():
